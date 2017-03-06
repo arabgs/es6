@@ -34,3 +34,6 @@ export function dbl(a) {
   b.push(a.filter(n => n > 20));
   return b.map(e => e * 2);
 }
+export function min(a, b) {
+  return a > b ? a : b;
+}
