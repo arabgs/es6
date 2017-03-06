@@ -30,9 +30,7 @@ export function notequal(a, b) {
 }
 
 export function dbl(a) {
-  let b;
-  b.push(a.filter(n => n > 20));
-  return b.map(e => e * 2);
+  return a.filter(n => n > 20).map(e => e * 2);
 }
 export function min(a, b) {
   return a > b ? a : b;
